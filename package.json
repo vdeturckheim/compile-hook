@@ -1,0 +1,34 @@
+{
+  "name": "compile-hook",
+  "version": "1.0.0",
+  "description": "a tiny, dummy way to add a hook to the Module.prototype._compile method",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/test.js -cL -t 100 -a code",
+    "preversion": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/compile-hook.git"
+  },
+  "keywords": [
+    "require",
+    "hook",
+    "compile",
+    "module",
+    "node"
+  ],
+  "author": "vdeturckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/compile-hook/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/compile-hook#readme",
+  "devDependencies": {
+    "code": "^3.0.0",
+    "lab": "^10.7.1"
+  },
+  "engines" : {
+    "node" : ">=4.0.0"
+  }
+}

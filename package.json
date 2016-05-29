@@ -1,6 +1,6 @@
 {
   "name": "compile-hook",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a tiny, dummy way to add a hook to the Module.prototype._compile method",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "code": "^3.0.0",
     "lab": "^10.7.1"
   },
-  "engines" : {
-    "node" : ">=4.0.0"
+  "engines": {
+    "node": ">=4.0.0"
   }
 }
